@@ -1,6 +1,28 @@
 # holiday-tasks-2.0
 
- 
+### Disk Health Check
+
+> [!NOTE]
+> Go to Windows 11 `System > Storage > Disks & Volumes > Properties > Drive health`, there you will be able to see information about health like 
+> **Estimated remaining life**, **Available spare** and **Temperature**.
+
+Check all disks health status
+```
+wmic diskdrive get model,status
+```
+
+Repair Windows Image
+```
+DISM /Online /Cleanup-Image /RestoreHealth
+```
+*Note: More on https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/repair-a-windows-image*
+
+Repair System Components and Files
+```
+sfc /scannow
+```
+*Note: More on https://support.microsoft.com/en-us/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e)*
+
 ### Disk Defragmentation
  
 > [!IMPORTANT]
@@ -64,4 +86,16 @@ defrag c: /H /U /V /X
 > 
 > ```/V``` - Verbose (optional)
 
+### Malware Scanning
 
+> [!WARNING]
+> This can be used to check that your actual antimalware solution is working as expected, these tools are not a replacement for a real antimalware/antivirus solution.
+
+Kaspersky Virus Removal Tool
+(https://www.kaspersky.com/downloads/free-virus-removal-tool)
+
+F-Secure
+(https://www.f-secure.com/en/online-scanner)
+
+Sophos Scan & Clean
+(https://www.sophos.com/en-us/free-tools/virus-removal-tool)
