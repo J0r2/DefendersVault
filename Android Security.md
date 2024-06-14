@@ -32,7 +32,7 @@ This highlights the need for security software that can monitor network connecti
 
 :100:  DNS to block unwanted network calls (very effective against malware, phishing and advertising).
 
-*Note: Requires Android 8.0 and above (2015 or newer devices may support it)*
+*Note: Requires Android 6.0 and above (2015 or newer devices may support it)*
 
 **NextDNS** (https://nextdns.io/)
 
@@ -51,9 +51,13 @@ This highlights the need for security software that can monitor network connecti
 
 *Note: Better in privacy (Block Contacts Searching)*
 
+*Note: Requires Android 7.0 and above (2016 or newer devices may support it)*
+
  :package: **Insular** (https://f-droid.org/packages/com.oasisfeng.island.fdroid/)
 
 *Note: Better in security (Option to prohibit ADB access)*
+
+*Note: Requires Android 8.1 and above (2017 or newer devices may support it)*
 
 > [!TIP]
 > More on: https://secure-system.gitlab.io/Insular/faq.html
@@ -67,6 +71,10 @@ This highlights the need for security software that can monitor network connecti
 
 *Note: Better in privacy (https://privacytests.org/)*
 
+*Note: Requires Android 9 and above (2018 or newer devices may support it)*
+
 :window: **Edge Browser** (https://play.google.com/store/apps/details?id=com.microsoft.emmx)
 
 *Note: Better in security (https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-browse-safer)*
+
+*Note: Requires Android 8.0 and above (2017 or newer devices may support it)*
