@@ -1,15 +1,23 @@
 # holiday-tasks-2.0
+### Why is system and disk drive maintenance important?
+
+Firstly, it helps prevent damage to your system and hardware. If any issues are detected, maintenance can attempt to repair them or alert you so you can take action.
+
+Secondly, many antivirus and antimalware programs are designed to optimize computer performance. For example, they may have a time limit for scanning files. If your antivirus is set to scan a file within 5 seconds, but you have a large 1GB file on a slower hard drive or SSD, it may not be able to scan the entire file in time. This could leave your system vulnerable. Disk drive optimization can help ensure your drive reads data quickly, enhancing security.
+
 
 ### Disk Health Check
 
 > [!NOTE]
-> Go to Windows 11 `System > Storage > Disks & Volumes > Properties > Drive health`, there you will be able to see information about health like 
+> On Windows 11 go to `System > Storage > Disks & Volumes > Properties > Drive health`, there you will be able to see information about health like 
 > **Estimated remaining life**, **Available spare** and **Temperature**.
 
 Check all disks health status
 ```
 wmic diskdrive get model,status
 ```
+> [!IMPORTANT]
+> You must use Command Prompt (cmd) or PowerShell as an administrator to run these commands.
 
 Repair Windows Image
 ```
@@ -26,6 +34,8 @@ sfc /scannow
 ### Disk Defragmentation
  
 > [!IMPORTANT]
+> You must use Command Prompt (cmd) or PowerShell as an administrator to run these commands.
+>
 > Change "c:" to your drive letter, you can run this commands on all your disk drives formatted with NTFS.
 
 Analyze
