@@ -12,3 +12,17 @@
 :calling: **Android Security** - [*Link*](https://github.com/J0r2/holiday-tasks-2.0/blob/main/Android%20Security.md)
 - Discover top-tier security applications tailored for enterprise-level protection on your device.
 - Explore alternative browser options to Google Chrome and Firefox that prioritize privacy and security to meet your specific needs.
+
+## TO-DO
+
+- [ ] Windows and Linux security
+
+- [ ] iOS/iPadOs Security
+
+- [ ] Web browser Security
+
+- [ ] Password and Account Security
+
+- [ ] Vulnerability Management
+
+- [ ] Explore the Red Team Approach (for Enhanced Defense Strategies)
