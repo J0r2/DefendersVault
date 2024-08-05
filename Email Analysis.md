@@ -20,6 +20,8 @@ To ensure accurate analysis, please follow these instructions for submitting the
 
 ## Performing the Analysis
 
+To effectively analyze suspicious emails, follow the guidelines outlined in this comprehensive guide: [Manual Phishing Email Analysis](https://medium.com/@pasanglamatamang/manual-phising-email-analysis-060c7870ffa3). This resource provides step-by-step instructions on identifying phishing attempts and assessing the legitimacy of emails.
+
 > [!WARNING]
 > Remember to delete the uploaded file from the websites once the analysis is complete.  
 > Additionally, if the file may contain sensitive data, be sure to enable the 'Private Submission' option when uploading it to malware analysis platforms. This will help ensure that the uploaded file is not shared with other vendors.
