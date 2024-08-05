@@ -1,4 +1,4 @@
-# Windows XP Security
+# :window: Windows XP Security
 
 ### Why should you improve Windows XP security?
 
