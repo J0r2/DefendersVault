@@ -1,4 +1,4 @@
-# Email Analysis
+# :mag_right: Email Analysis
 
 In this section, you will discover new tools for analyzing and identifying suspicious emails.
 
